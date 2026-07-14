@@ -1,15 +1,14 @@
-
-import './App.css'
+import "./App.css";
+import Nav from "./components/navbar/nav";
+import Banner from "./components/banner/banner";
 
 function App() {
-
-
   return (
     <>
-      <h1 className='text-red-700'>hello</h1>
-      <button className='btn btn-primary'>subscribe</button>
+      <Nav />
+      <Banner/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "type": "Batsman",
+    "rating": 96,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Medium",
+    "price": 1800000,
+    "image": "https://i.ibb.co.com/2DHCB1h/virat.avif"
+  },
+  {
+    "id": 2,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "type": "Batsman",
+    "rating": 94,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Off Break",
+    "price": 1700000,
+    "image": "https://i.ibb.co.com/zWqZCxjf/babar.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jos Buttler",
+    "country": "England",
+    "type": "Wicketkeeper-Batsman",
+    "rating": 92,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "None",
+    "price": 1650000,
+    "image": "https://i.ibb.co.com/ycytYwrP/jos-Batlar.webp"
+  },
+  {
+    "id": 4,
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "type": "Fast Bowler",
+    "rating": 93,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Fast",
+    "price": 1750000,
+    "image": "https://i.ibb.co.com/Wr2FyCy/pat.webp"
+  },
+  {
+    "id": 5,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "type": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Off Break",
+    "price": 1600000,
+    "image": "https://i.ibb.co.com/YVZj111/kane-Willium.webp"
+  },
+  {
+    "id": 6,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "type": "All-Rounder",
+    "rating": 90,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "Slow Left-arm Orthodox",
+    "price": 1500000,
+    "image": "https://i.ibb.co.com/gFT7w4WX/sakib.webp"
+  },
+  {
+    "id": 7,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "type": "Spin Bowler",
+    "rating": 95,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Leg Break",
+    "price": 1800000,
+    "image": "https://i.ibb.co.com/GQ9jw9Wf/rasid.webp"
+  },
+  {
+    "id": 8,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "type": "Wicketkeeper-Batsman",
+    "rating": 89,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "None",
+    "price": 1450000,
+    "image": "https://i.ibb.co.com/xSydzB5m/quenton.webp"
+  },
+  {
+    "id": 9,
+    "name": "Nicholas Pooran",
+    "country": "West Indies",
+    "type": "Wicketkeeper-Batsman",
+    "rating": 88,
+    "battingStyle": "Left-hand Bat",
+    "bowlingStyle": "None",
+    "price": 1400000,
+    "image": "https://i.ibb.co.com/yn2DD3hc/poran.webp"
+  },
+  {
+    "id": 10,
+    "name": "Wanindu Hasaranga",
+    "country": "Sri Lanka",
+    "type": "Bowling All-Rounder",
+    "rating": 91,
+    "battingStyle": "Right-hand Bat",
+    "bowlingStyle": "Right-arm Leg Break",
+    "price": 1550000,
+    "image": "https://i.ibb.co.com/TxsYgJyh/hasaranga.webp"
+  }
+]
