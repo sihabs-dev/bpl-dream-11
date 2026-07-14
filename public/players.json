@@ -8,7 +8,8 @@
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Medium",
     "price": 1800000,
-    "image": "https://i.ibb.co.com/2DHCB1h/virat.avif"
+    "image": "https://i.ibb.co.com/2DHCB1h/virat.avif",
+    "alt": "Virat Kohli"
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Off Break",
     "price": 1700000,
-    "image": "https://i.ibb.co.com/zWqZCxjf/babar.jpg"
+    "image": "https://i.ibb.co.com/zWqZCxjf/babar.jpg",
+    "alt": "Babar Azam"
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "None",
     "price": 1650000,
-    "image": "https://i.ibb.co.com/ycytYwrP/jos-Batlar.webp"
+    "image": "https://i.ibb.co.com/ycytYwrP/jos-Batlar.webp",
+    "alt": "Jos Buttler"
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Fast",
     "price": 1750000,
-    "image": "https://i.ibb.co.com/Wr2FyCy/pat.webp"
+    "image": "https://i.ibb.co.com/Wr2FyCy/pat.webp",
+    "alt": "Pat Cummins"
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Off Break",
     "price": 1600000,
-    "image": "https://i.ibb.co.com/YVZj111/kane-Willium.webp"
+    "image": "https://i.ibb.co.com/YVZj111/kane-Willium.webp",
+    "alt": "Kane Williamson"
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "battingStyle": "Left-hand Bat",
     "bowlingStyle": "Slow Left-arm Orthodox",
     "price": 1500000,
-    "image": "https://i.ibb.co.com/gFT7w4WX/sakib.webp"
+    "image": "https://i.ibb.co.com/gFT7w4WX/sakib.webp",
+    "alt": "Shakib Al Hasan"
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Leg Break",
     "price": 1800000,
-    "image": "https://i.ibb.co.com/GQ9jw9Wf/rasid.webp"
+    "image": "https://i.ibb.co.com/GQ9jw9Wf/rasid.webp",
+    "alt": "Rashid Khan"
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "battingStyle": "Left-hand Bat",
     "bowlingStyle": "None",
     "price": 1450000,
-    "image": "https://i.ibb.co.com/xSydzB5m/quenton.webp"
+    "image": "https://i.ibb.co.com/xSydzB5m/quenton.webp",
+    "alt": "Quinton de Kock"
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "battingStyle": "Left-hand Bat",
     "bowlingStyle": "None",
     "price": 1400000,
-    "image": "https://i.ibb.co.com/yn2DD3hc/poran.webp"
+    "image": "https://i.ibb.co.com/yn2DD3hc/poran.webp",
+    "alt": "Nicholas Pooran"
   },
   {
     "id": 10,
@@ -107,6 +116,7 @@
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Leg Break",
     "price": 1550000,
-    "image": "https://i.ibb.co.com/TxsYgJyh/hasaranga.webp"
+    "image": "https://i.ibb.co.com/TxsYgJyh/hasaranga.webp",
+    "alt": "Wanindu Hasaranga"
   }
 ]
