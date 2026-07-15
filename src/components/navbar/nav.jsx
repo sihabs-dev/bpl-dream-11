@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../assets/logo.png";
 import Currency from "../../assets/Currency.png";
 
-const Nav = () => {
+const Nav = ({coin}) => {
   return (
     <div className="navbar bg-base-100 container mx-auto">
       <div className="navbar-start">
@@ -65,7 +65,7 @@ const Nav = () => {
         </ul>
       </div>
       <div className="navbar-end text-2xl font-bold">
-        <span className="mr-2 ">0 Coin</span>
+        <span className="mr-2 ">$<span className="">{ coin}</span> Coin</span>
         <img src={Currency} alt="Currency" className="align-baseline" />
       </div>
     </div>

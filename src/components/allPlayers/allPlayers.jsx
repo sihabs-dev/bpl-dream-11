@@ -1,18 +1,20 @@
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import Card from "./card";
 import Selected from "../selectedPlayer/selected";
 import PlayerMap from "./playerMap";
 
 const playersPromise = fetch("/players.json").then((res) => res.json());
-const AllPlayers = () => {
- 
+const AllPlayers = ({ coin, setCoin }) => {
   const [data, setData] = useState("Available");
+  const [selectedPlayer, setSelectedPlayer] = useState([]);
 
   return (
     <>
       <div className="container mx-auto flex justify-between mt-8 items-center">
         <h2 className="text-4xl font-bold">
-          {data == "Available" ? "Availabel" : "Selected(0)"}
+          {data == "Available"
+            ? "Available"
+            : `Selected(${selectedPlayer.length}/10)`}
         </h2>
         <div>
           <button
@@ -25,14 +27,29 @@ const AllPlayers = () => {
             onClick={() => setData("Selected")}
             className={`btn rounded-l-none ${data == "Selected" && "bg-[#E7FE29]"}`}
           >
-            Selected(0)
+            Selected({selectedPlayer.length})
           </button>
         </div>
       </div>
       {data == "Available" ? (
-        <PlayerMap playersPromise={playersPromise} />
+        <Suspense
+          fallback={
+            <span className="loading loading-spinner loading-xl block w-[70px] mx-auto mt-9"></span>
+          }
+        >
+          <PlayerMap
+            playersPromise={playersPromise}
+            setSelectedPlayer={setSelectedPlayer}
+            coin={coin}
+            setCoin={setCoin}
+          />
+        </Suspense>
       ) : (
-        <Selected />
+        <Selected
+          selectedPlayer={selectedPlayer}
+          setSelectedPlayer={setSelectedPlayer}
+          setCoin={setCoin}
+        />
       )}
     </>
   );

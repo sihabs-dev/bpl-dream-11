@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { IoFlagSharp } from "react-icons/io5";
+import { toast } from "react-toastify";
 
-const Card = ({ player }) => {
-  console.log(player);
+const Card = ({ player, coin, setCoin, setSelectedPlayer }) => {
+  const [isSelected, setIsSelected] = useState(false);
+  const handleSlected = () => {
+    if (coin > player.price) {
+      setIsSelected(true);
+      setCoin(coin - player.price);
+      setSelectedPlayer((prev) => [...prev, player]);
+    } else {
+      toast.error("don't have enough coin!");
+      return;
+    }
+    toast.success(`${player.name} is selected!`);
+  };
+
   return (
     <div className="">
       <div className="card bg-base-100 shadow-sm h-[450px] border border-gray-300">
@@ -16,7 +29,8 @@ const Card = ({ player }) => {
           </h2>
           <div className="flex justify-between">
             <p className="flex gap-1 items-center font-medium">
-              <IoFlagSharp /> <span>{player.country}</span>
+              <IoFlagSharp className="opacity-60" />{" "}
+              <span>{player.country}</span>
             </p>
             <button className="btn">{player.type}</button>
           </div>
@@ -28,7 +42,13 @@ const Card = ({ player }) => {
           </div>
           <div className="card-actions justify-end items-center">
             <p className="text-[18px] font-medium">price: ${player.price}</p>
-            <button className="btn">Choose player</button>
+            <button
+              className="btn"
+              onClick={handleSlected}
+              disabled={isSelected}
+            >
+              {isSelected ? "Selected" : "Choose player"}
+            </button>
           </div>
         </div>
       </div>

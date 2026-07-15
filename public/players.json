@@ -7,7 +7,7 @@
     "rating": 96,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Medium",
-    "price": 1800000,
+    "price": 180,
     "image": "https://i.ibb.co.com/2DHCB1h/virat.avif",
     "alt": "Virat Kohli"
   },
@@ -19,7 +19,7 @@
     "rating": 94,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Off Break",
-    "price": 1700000,
+    "price": 170,
     "image": "https://i.ibb.co.com/zWqZCxjf/babar.jpg",
     "alt": "Babar Azam"
   },
@@ -31,7 +31,7 @@
     "rating": 92,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "None",
-    "price": 1650000,
+    "price": 165,
     "image": "https://i.ibb.co.com/ycytYwrP/jos-Batlar.webp",
     "alt": "Jos Buttler"
   },
@@ -43,7 +43,7 @@
     "rating": 93,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Fast",
-    "price": 1750000,
+    "price": 175,
     "image": "https://i.ibb.co.com/Wr2FyCy/pat.webp",
     "alt": "Pat Cummins"
   },
@@ -55,7 +55,7 @@
     "rating": 91,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Off Break",
-    "price": 1600000,
+    "price": 160,
     "image": "https://i.ibb.co.com/YVZj111/kane-Willium.webp",
     "alt": "Kane Williamson"
   },
@@ -67,7 +67,7 @@
     "rating": 90,
     "battingStyle": "Left-hand Bat",
     "bowlingStyle": "Slow Left-arm Orthodox",
-    "price": 1500000,
+    "price": 150,
     "image": "https://i.ibb.co.com/gFT7w4WX/sakib.webp",
     "alt": "Shakib Al Hasan"
   },
@@ -79,7 +79,7 @@
     "rating": 95,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Leg Break",
-    "price": 1800000,
+    "price": 180,
     "image": "https://i.ibb.co.com/GQ9jw9Wf/rasid.webp",
     "alt": "Rashid Khan"
   },
@@ -91,7 +91,7 @@
     "rating": 89,
     "battingStyle": "Left-hand Bat",
     "bowlingStyle": "None",
-    "price": 1450000,
+    "price": 145,
     "image": "https://i.ibb.co.com/xSydzB5m/quenton.webp",
     "alt": "Quinton de Kock"
   },
@@ -103,7 +103,7 @@
     "rating": 88,
     "battingStyle": "Left-hand Bat",
     "bowlingStyle": "None",
-    "price": 1400000,
+    "price": 140,
     "image": "https://i.ibb.co.com/yn2DD3hc/poran.webp",
     "alt": "Nicholas Pooran"
   },
@@ -115,7 +115,7 @@
     "rating": 91,
     "battingStyle": "Right-hand Bat",
     "bowlingStyle": "Right-arm Leg Break",
-    "price": 1550000,
+    "price": 155,
     "image": "https://i.ibb.co.com/TxsYgJyh/hasaranga.webp",
     "alt": "Wanindu Hasaranga"
   }
