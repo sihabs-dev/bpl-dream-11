@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Nav coin={coin} />
-      {/* <Banner /> */}
+      <Banner />
 
       <AllPlayers coin={coin} setCoin={setCoin} />
       <ToastContainer />
