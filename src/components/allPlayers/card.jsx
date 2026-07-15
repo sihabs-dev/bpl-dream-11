@@ -6,7 +6,7 @@ const Card = ({ player }) => {
   console.log(player);
   return (
     <div className="">
-      <div className="card bg-base-100 shadow-sm h-[450px] border border-gray-200">
+      <div className="card bg-base-100 shadow-sm h-[450px] border border-gray-300">
         <figure>
           <img className="max-h-full" src={player.image} alt="Shoes" />
         </figure>
