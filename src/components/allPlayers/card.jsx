@@ -21,7 +21,7 @@ const Card = ({ player, coin, setCoin, setSelectedPlayer }) => {
     <div className="">
       <div className="card bg-base-100 shadow-sm h-[450px] border border-gray-300">
         <figure>
-          <img className="max-h-full" src={player.image} alt="Shoes" />
+          <img className="max-h-full" src={player.image} alt={player.alt} />
         </figure>
         <div className="card-body">
           <h2 className="card-title">

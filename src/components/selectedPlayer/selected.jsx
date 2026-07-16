@@ -5,7 +5,7 @@ const Selected = ({ selectedPlayer, setSelectedPlayer, setCoin }) => {
   return (
     <>
       {selectedPlayer.length == 0 ? (
-        <div className="text-center p-10 bg-red-100 border-2 border-red-200 rounded-xl mt-7 container mx-auto">
+        <div className="text-center p-10 bg-red-100 border-2 border-red-200 rounded-xl my-7 container mx-auto">
           <h2 className="text-5xl font-bold py-5">No Player Selected yet!</h2>
         </div>
       ) : (

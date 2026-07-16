@@ -3,7 +3,7 @@ import Card from "./card";
 import Selected from "../selectedPlayer/selected";
 import PlayerMap from "./playerMap";
 
-const playersPromise = fetch("/players.json").then((res) => res.json());
+const playersPromise = fetch("/players.json").then((res) => res.json()); 
 const AllPlayers = ({ coin, setCoin }) => {
   const [data, setData] = useState("Available");
   const [selectedPlayer, setSelectedPlayer] = useState([]);
@@ -34,7 +34,7 @@ const AllPlayers = ({ coin, setCoin }) => {
       {data == "Available" ? (
         <Suspense
           fallback={
-            <span className="loading loading-spinner loading-xl block w-[70px] mx-auto mt-9"></span>
+            <span className="loading loading-spinner loading-xl block w-17.5 mx-auto mt-9"></span>
           }
         >
           <PlayerMap

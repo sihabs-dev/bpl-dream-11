@@ -11,12 +11,11 @@ function App() {
     <>
       <Nav coin={coin} />
       <Banner />
-
       <AllPlayers coin={coin} setCoin={setCoin} />
-      <ToastContainer />
-      {/* <ToastContainer
-        position="bottom-left"
-        autoClose={5000}
+      {/* <ToastContainer /> */}
+      <ToastContainer
+        position="bottom-center"
+        autoClose={2000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick={false}
@@ -26,7 +25,7 @@ function App() {
         pauseOnHover
         theme="light"
         transition={Bounce}
-      /> */}
+      />
     </>
   );
 }
